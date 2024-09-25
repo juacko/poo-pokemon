@@ -99,5 +99,5 @@ class BatallaPokemon {
 const pikachu = new JosuePokemon("Pikachu", 90, 50, 100,"Electrico");
 const charmander = new JosuePokemon("bulbasaur", 85, 40, 400,"planta");
 
-const batalla = new BatallaPokemon(pikachu, charmander);
+const batalla = new BatallaPokemon(Raichu, charmander);
 batalla.iniciarBatalla();
